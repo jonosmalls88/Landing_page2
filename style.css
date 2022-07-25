@@ -14,10 +14,15 @@
     background-color: #1F2937;
 }
 
+.block_one_img {
+    margin-left: 100px;
+}
+
 .header {
     font-size: 18px;
     color: #e5e7eb;
     display: flex;
+    margin-right: 140px;
 }
 
 .logo {
@@ -134,9 +139,10 @@ block_four {
 
 .blue_box {
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
     background-color: #3882F6;
     margin: 80px 160px;
+    border-radius: 8px;
 }
 
 .box_four_left {
@@ -160,7 +166,7 @@ button {
 }
 
 .block_four button {
-    border: #e5e7eb;
+    border: solid #e5e7eb;
 }
 
 .block_four h3 {
@@ -171,6 +177,7 @@ button {
 }
 
 .block_four p {
+    
     font-size: 18px;
     color: #e5e7eb;
 
