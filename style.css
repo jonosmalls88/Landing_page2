@@ -150,8 +150,17 @@ block_four {
 
 button {
     font-size: 18px;
+    color: #e5e7eb;
+    font-weight: bold;
     background-color: #3882F6;
     align-self: center;
+    border: none;
+    border-radius: 8px;
+    padding: 10px;
+}
+
+.block_four button {
+    border: #e5e7eb;
 }
 
 .block_four h3 {
@@ -165,4 +174,12 @@ button {
     font-size: 18px;
     color: #e5e7eb;
 
+}
+
+.footer {
+    display: flex;
+    justify-content: center;
+    color: #e5e7eb;
+    background-color: #1F2937;
+    padding: 18px;
 }
